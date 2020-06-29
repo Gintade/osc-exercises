@@ -13,7 +13,7 @@
 #include <string.h> //es evidente
 #include <sys/wait.h> //para la espera del proceso hijo
 #include <sys/types.h> //tipo de dato pid_t 
-#include <fcntl.h> //archivos
+#include <fcntl.h> //archivos (y tuberías)
 #include <signal.h> //señales entre procesos
 
 #define MAX_LINE 80
