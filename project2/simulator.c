@@ -95,7 +95,7 @@ int main(){
                     for(;input[i] == ' ' && i<MAX_LINE;i++) ;
                     strcpy(redirect_path, input+i);
                 }else if(strcmp(args[num_args-1], "<") == 0){
-                    printf("capture the input redirectoion...\n");
+                    printf("capture the input redirection...\n");
                     in_redirect_flag = 1;
                     /* get the redirect file */
                     for(;input[i] == ' ' && i<MAX_LINE;i++) ;

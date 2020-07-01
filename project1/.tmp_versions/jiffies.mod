@@ -1,2 +1,2 @@
-/home/osc/Desktop/OSC/project1/jiffies.ko
-/home/osc/Desktop/OSC/project1/jiffies.o
+/home/osc/Desktop/Ejercicios/osc-exercises/project1/jiffies.ko
+/home/osc/Desktop/Ejercicios/osc-exercises/project1/jiffies.o
