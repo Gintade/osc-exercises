@@ -7,14 +7,14 @@
 	> Created Time: 2019年05月15日 星期三 14时28分55秒
  ************************************************************************/
 
-#include <stdio.h> //print y eso
-#include <unistd.h> //funciones posix como execvp()
-#include <stdlib.h> //funciones básicas como exit()
-#include <string.h> //es evidente
-#include <sys/wait.h> //para la espera del proceso hijo
-#include <sys/types.h> //tipo de dato pid_t 
-#include <fcntl.h> //archivos (y tuberías)
-#include <signal.h> //señales entre procesos
+#include <stdio.h> 
+#include <unistd.h> 
+#include <stdlib.h> 
+#include <string.h>
+#include <sys/wait.h>
+#include <sys/types.h>
+#include <fcntl.h>
+#include <signal.h>
 
 #define MAX_LINE 80
 void *preprocess(char *input);
