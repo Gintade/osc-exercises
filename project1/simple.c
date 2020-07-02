@@ -7,13 +7,13 @@
 	> Created Time: Tue 14 May 2019 07:07:47 PM PDT
  ************************************************************************/
 
-#include <linux/init.h> //para el metodo init de la carga del modulo
-#include <linux/hash.h> //golden ratio
-#include <linux/gcd.h> //gcd()
-#include <asm/param.h> //para la constante HZ
-#include <linux/jiffies.h> //para el num de jiffies
-#include <linux/kernel.h> //para metodos de espacio de kernel como printk
-#include <linux/module.h> //para la informacion de los modulos
+#include <linux/init.h>
+#include <linux/hash.h> 
+#include <linux/gcd.h> 
+#include <asm/param.h> 
+#include <linux/jiffies.h> 
+#include <linux/kernel.h>
+#include <linux/module.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("simple module");
